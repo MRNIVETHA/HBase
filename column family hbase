@@ -1,0 +1,18 @@
+
+HBase is a column-oriented non-relational database management system that runs on top of Hadoop Distributed File System (HDFS).
+HBase provides a fault-tolerant way of storing sparse data sets, which are common in many big data use cases.
+It is well suited for real-time data processing or random read/write access to large volumes of data.
+Unlike relational database systems, HBase does not support a structured query language like SQL; in fact, HBase isn’t a relational data store at all. 
+HBase applications are written in Java™ much like a typical Apache MapReduce application. HBase does support writing applications in Apache Avro, REST and Thrift.
+An HBase system is designed to scale linearly. It comprises a set of standard tables with rows and columns, much like a traditional database.
+Each table must have an element defined as a primary key, and all access attempts to HBase tables must use this primary key.
+
+To create a HBase Database for a Online course reservation .It include
+      1)student_details
+      2)staff_details
+      
+CONCLUSION :
+we can say that Apache HBase is a NoSQL database that runs on top of the Hadoop Distributed File System. Provides the BigTable functionality of the Hadoop framework. 
+It consists of HMaster Server, HBase Region Server, and Regions and Zookeeper. 
+The article included the difference between HBase and RDBMS as well as the difference between HBase and HDFS. 
+HBase provides consistent reads and writes. It is open-source and scalable. We can use HBase in many industries, including medicine, sports, e-commerce, etc.
